@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Card Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Add a New Card</h2>
+      <form id="cardForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="rollnum">Roll Number:</label>
+        <input type="text" id="rollnum" required />
+
+        <label for="details">Details:</label>
+        <textarea id="details" required></textarea>
+
+        <button type="submit">Add Card</button>
+      </form>
+    </div>
+
+    <div id="cardsContainer" class="cards-container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
